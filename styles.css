@@ -1,0 +1,62 @@
+/* تنظیمات کلی */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vazir", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* کانتینر اصلی */
+.quote-container {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    text-align: center;
+}
+
+/* باکس نقل قول */
+.quote-box {
+    padding: 20px;
+}
+
+#quote-text {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#quote-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* دکمه نقل قول جدید */
+.btn {
+    background: linear-gradient(135deg, #ff7979, #badc58);
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
